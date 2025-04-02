@@ -1,0 +1,1 @@
+window.onload=function(){document.querySelector("#year").innerText=new Date().getFullYear();let e=document.querySelector("#hidden-otp"),t=e.innerText,n=document.querySelector("#otp-container");for(let r of t){let l=document.createElement("span");l.classList.add(["character"]),l.innerText=r,n.appendChild(l)}};
